@@ -122,8 +122,6 @@
     margin-top: 95px;
     display: flex;
     /* justify-content: space-around; */
-    width: 91%;
-    height: 90%;
     position: relative;
     padding-top: 4%;
     padding-left: 5%;
@@ -152,11 +150,76 @@
 .block-four {
     display: flex;
     margin-top: 103px;
-    /* justify-content: space-around; */
     position: relative;
     padding-left: 10%;
-    padding-top: 5%;
+    padding-top: 10%;
 }
+
+
+.sec-recive{
+    background-color: #3E3E3D;
+    display: flex;
+    position: relative;
+    padding-bottom: 50px;
+    background-image: url('../images/img-recive.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 830px;
+    & h1{color: #FFFF;}
+}
+
+.block-left{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 300px;
+    padding-top: 125px;
+    flex-direction: column;
+    text-align: center;
+
+}
+.images-recive{
+    display: flex;
+    justify-content: center;
+    gap: 47px;
+    margin-top: 100px;
+}
+.btn-recive{
+    padding: 5px 10px 5px 10px;
+    background-color: #C4C4C4;
+    font-size: 25px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btn-recive-active{
+    padding: 5px 10px 5px 10px;
+    background-color: #DC911B;
+    font-size: 25px;
+    border-style: none;
+    cursor: pointer;
+
+}
+.buttons-recive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 40px;
+    & a{
+        position: absolute;
+        text-decoration: none;
+        color: #FFFF;
+        font-family: 'Roboto', sans-serif;
+        right: 2rem;
+        bottom: 2%;
+        font-size: 18px;
+    }
+}
+
+
+
+
+
 
 
 /* адаптив */
@@ -187,15 +250,7 @@
     }
 }
 
-.block-third {
-    margin-top: 95px;   
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    position: relative;
-    padding-top: 5%;
-    padding-left: 15%;
-}
+
 
 /* адаптив */
 
@@ -214,13 +269,7 @@
     }
 }
 
-.block-four {
-    display: flex;
-    margin-top: 103px;
-    position: relative;
-    padding-left: 10%;
-    padding-top: 5%;
-}
+
 
 @media (max-width: 1024px) {
     .block-four {
