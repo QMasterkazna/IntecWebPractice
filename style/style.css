@@ -297,6 +297,64 @@
     }
 }
 
+.sec-news{
+    margin-top: 200px;
+}
+.left-content-news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content-news{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.block-news{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.block-content-news{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20rem;
+    gap: 16px;
+    & span {
+        font-weight: 300;
+        font-size: 14px;
+        color: #6F6F6E;
+    }
+    & p {
+        font-weight: 400;
+        font-size: 16px;
+        font-family: 'Robot', sans-serif;
+        line-height: 150%;
+    }
+}
+
+.link-news{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 4rem;
+    & a {
+        text-decoration: none;
+        font-family: 'Robot', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+
+    }
+}
+
+/* Очень много текста примерно на три строчки, ибо больше никто читать не будет. */
+
+
 /* адаптив */
 @media (max-width: 1024px) {
     .block-first {
