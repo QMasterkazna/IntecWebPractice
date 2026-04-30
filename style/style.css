@@ -398,8 +398,11 @@
         font-size: 12px;
         font-family: "Scada", sans-serif;
         line-height: 120%;
-        border-bottom: #DC911B 1px solid;
+        border-bottom: #3E3E3D 1px solid;
         
+    }
+    & input:focus{
+        border-bottom: #DC911B 1px solid;
     }
     & input::placeholder{
         opacity: 1;
@@ -470,6 +473,70 @@
         line-height: 120%;
     }
 }
+
+
+.sec-certificate{
+    background-color: #3E3E3D;
+    display: flex;
+    position: relative;
+    padding-bottom: 50px;
+    background-image: url('../images/img-certificate.png');
+    background-repeat: no-repeat;
+    background-position: 74rem 1rem;
+    background-size: 830px;
+    & h1{color: #FFFF;}
+}
+
+.block-left{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 300px;
+    padding-top: 125px;
+    flex-direction: column;
+    text-align: center;
+
+}
+.images-certificate{
+    display: flex;
+    justify-content: center;
+    gap: 47px;
+    margin-top: 100px;
+}
+.btn-certificate{
+    padding: 5px 10px 5px 10px;
+    background-color: #C4C4C4;
+    font-size: 25px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btn-certificate-active{
+    padding: 5px 10px 5px 10px;
+    background-color: #DC911B;
+    font-size: 25px;
+    border-style: none;
+    cursor: pointer;
+
+}
+.buttons-certificate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 40px;
+    & a{
+        position: absolute;
+        text-decoration: none;
+        color: #FFFF;
+        font-family: 'Roboto', sans-serif;
+        right: 2rem;
+        bottom: 2%;
+        font-size: 18px;
+    }
+}
+
+
+
 
 /* адаптив */
 @media (max-width: 1024px) {
