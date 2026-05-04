@@ -535,7 +535,27 @@
     }
 }
 
-
+.sec-clients{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.header-clients{
+    margin: 0 25rem 6rem 0;
+    display: flex;
+    justify-content: center;
+}
+.block-clients {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  /* 4 равные колонки */
+    gap: 80px;
+    justify-items: center;
+    margin: 0 17rem 0 17rem;
+}
+.block-clients div {
+    margin-bottom: 120px;
+}
 
 
 /* адаптив */
